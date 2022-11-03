@@ -18,8 +18,21 @@ layout: base.njk
 
       <h1 class="note-title">{{ title }}</h1>
 
+      <div class="feedback-notice">
+        <p>Hi there! This website is currently in public beta mode. I'm am trying to get feedback from multiple(including you) before I publish it. To facilitate the feedback submission, I have added a highlighting and commenting option.</p> 
+
+        <p>To use that, just select any text(for eg, double click on this: DOUBLE CLICK ME). Click on Annotate - this will show a login prompt. Use this login details... </p>
+
+        <ul>
+          <li>Username: zettelkasten</li>
+          <li>Password: notes</li>
+        </ul>
+
+        <p>If you have any corrections or suggestions, please select the text and add a comment using this system. </p>
+      </div>
+
       <div class="note-content">
-        {{ content | safe }}
+        {{ content | stripDraft | safe }}
       </div>
 
       {% include 'backlinks.njk' %}
@@ -67,3 +80,14 @@ layout: base.njk
   </main>
 </div>
 
+<script> 
+window.onload = function(){
+  window.hypothesisConfig=function(){
+    return{showHighlights:true,appType:'bookmarklet'};
+  };
+  var d=document;
+  var s=d.createElement('script');
+  s.setAttribute('src','https://hypothes.is/embed.js');
+  d.body.appendChild(s)
+}
+</script>

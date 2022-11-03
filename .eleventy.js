@@ -70,6 +70,12 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.setUseGitIgnore(false);
 
+  // Removes everything after a <hr> - its all draft content.
+  eleventyConfig.addFilter("stripDraft", article => {
+    let parts = article.split("<hr>");
+    return parts[0];
+  });
+
   eleventyConfig.addFilter("extractExcerpt", article => {
     return extractExcerpt(article);
   });

@@ -110,3 +110,10 @@
   max-height: 14rem;
   overflow: auto;
 }
+
+.feedback-notice {
+  background-color: var(--bg-sub);
+  border: 1px solid var(--border);
+  border-radius: .25em;
+  padding: 0 1em;
+}

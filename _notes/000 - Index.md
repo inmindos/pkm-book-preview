@@ -1,0 +1,65 @@
+- [[010 - Introduction to PKM]]
+  - What is PKM
+  - Why you should be using it.
+	- [[030 - Zettelkasten]]
+	- [[040 - Graph Journal]]
+- [[050 - Setup your Knowledge Base]]
+  - One place that holds all information
+  - Decide
+    - Tool to use
+    - DB/Vault Count
+    - Habits
+    - Private / Public
+- [[060 - Capture]]
+  - How to search
+  - Rizsearch
+- [[070 - Manage]]
+  - Note taking
+  - Zettelkasten
+  - Synthesize
+  - Draw new connections
+- Use
+  - Incorporating the new knowledge into your life
+  - Creating new content
+  - Tacit knowledge
+- [[090 - PKM Flywheel]]
+- Advanced Usage
+  - Publish
+  - Content creation
+
+## Concepts to Cover
+
+- Zettelkasten
+  - Habit Building
+  - Workflows
+  - Loading ideas and context into active memory when reading notes
+    - You'll get 70% of the original context you had when creating the note.
+    - Load up multiple notes/ideas - and start making connections between different ideas in your active memory.
+- Digital Garden
+- Learning in Public / Build in Public
+- PKM Archetypes - [DZG Note](obsidian:open?vault=DZG&file=Three%20Types%20of%20Note%20Taking%20Personalities)
+- Progressive Summerization
+- Spaced Repetition
+- Backlinks
+- Taxonomy - tags, hierarchies, folder structure, etc.
+- Graph structure (nodes, edges)
+- commonplace book
+- Tools
+  - Classification
+    - Offline / Online
+    - Markdown
+  - Version Control / Git
+  - Things to keep in mind
+    - Lock-in is BAD
+    - API and/or export is a must for online tools
+    - Publishing your notes
+    - How 'geeky' is it - markdown is not for everyone.
+    - Plugins
+    - Does it fit into your workflow
+    - Does it play nice with your other tools
+  - Obsidian
+  - Logseq
+  - Roam Research
+  - Remnote
+  - Others
+- Workflows
